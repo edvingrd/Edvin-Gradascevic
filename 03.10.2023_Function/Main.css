@@ -1,0 +1,17 @@
+h1, #Button
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+
+}
+button
+{
+    border: solid black 2px;
+    font-size: 25px;
+}
+button:hover
+{
+    background-color: green;
+    font-size: 30px;
+}
