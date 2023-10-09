@@ -11,7 +11,7 @@ function errorAuswerfen(parameter) {
   function startButton()
   {
     // Schleife, um die Funktion 10-20 Mal aufzurufen
-  const SchleifenAnzahl = Math.floor(Math.random() * 11) + 10; // Zufällige Anzahl von Aufrufen zwischen 10 und 20
+  const SchleifenAnzahl = Math.floor(Math.random() * 20) ; // Zufällige Anzahl von Aufrufen zwischen 10 und 20
   
   for (let i = 0; i < SchleifenAnzahl; i++) {
     const zufälligerParameter = Math.floor(Math.random() * 10); // Zufälliger Parameter zwischen 0 und 9
