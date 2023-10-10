@@ -14,11 +14,11 @@ function errorAuswerfen(parameter) {
   const SchleifenAnzahl = Math.floor(Math.random() * 20) ; // Zufällige Anzahl von Aufrufen zwischen 10 und 20
   
   for (let i = 0; i < SchleifenAnzahl; i++) {
-    const zufälligerParameter = Math.floor(Math.random() * 10); // Zufälliger Parameter zwischen 0 und 9
+    const zufälligerParameter = Math.floor(Math.random() * 10); // Zufälliger Parameter zwischen 0 und 10
     try {
     errorAuswerfen(zufälligerParameter);
     } catch (error) {
-      console.error(error.message);
+      console.error("Fehler bei diesem Parameter");
     }
   }
 }
